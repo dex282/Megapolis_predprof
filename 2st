@@ -1,0 +1,16 @@
+f = open('monster_game.txt') #открываю файл
+name = f                    #присваиваю имена
+attack = int(input)
+deffend = int(input)
+health = int(input)
+skorosti = int(input)
+if  f  in range(len(10000)):
+    if attack('усиление атаки'): #t
+        print(attack *1.5)
+        if health('регенерация'):# 
+            print(health * 1.5)
+            if skorosti('дополнительный ход'):
+                print(skorosti * 1.5)
+
+string(10)
+print(f)
